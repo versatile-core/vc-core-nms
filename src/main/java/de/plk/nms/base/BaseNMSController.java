@@ -1,9 +1,14 @@
+package de.plk.nms.base;
+
 import de.plk.nms.api.NmsInterface;
 
 /**
  * @author SoftwareBuilds
- * @since 02.09.2023 14:04
+ * @since 23.09.2023 16:53
  * Copyright © 2023 | SoftwareBuilds | All rights reserved.
  */
-public class ConcreteNms implements NmsInterface {
+public class BaseNMSController {
+
+    private NmsInterface nmsInterface;
+
 }
